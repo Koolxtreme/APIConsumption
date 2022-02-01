@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="wrapper" id="pokeCanvas"></main>
+
+    <template id="card__template">
+        <div class="main__content">
+            <div class="card__img-background">
+                <div class="card__img-container">
+                    <picture>
+                        <source src="">
+                        <img class="recurso__img">
+                    </picture>
+                </div>
+            </div>
+            <div class="card__header"></div>
+            <div class="card__info-container">
+                <div class="card__info-contain1">
+                    <p class="nombre"></p>
+                    <p class="tipo"></p>
+                    <p class="vida"></p>
+                    <p class="exp"></p>
+                </div>
+                <div class="card__info-contain2">
+                    <div class="card__info-gridItem ataque">75k</div>
+                    <div class="card__info-gridItem atkespecial">70k</div>
+                    <div class="card__info-gridItem defensa">35k</div>
+                    <div class="card__info-gridItem">ataque</div>
+                    <div class="card__info-gridItem">ataque especial</div>
+                    <div class="card__info-gridItem">defensa</div>
+                </div>
+            </div>
+        </div>
+    </template>
+<script src="./app.js"></script>
+</body>
+</html>
